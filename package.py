@@ -37,6 +37,7 @@ def pre_build_commands():
 
 def commands():
     env.REZ_NLOHMANN_JSON_ROOT = '{root}'
+    env.NLOHMANN_JSON_LOCATION = '{root}'
 
 
 build_system = "cmake"
